@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20261b82-25b5-4d99-9620-e9f77ae5d6c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest_log6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/caculate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_cacu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_divide.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixture_param.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixtureandparams.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_mark_param_request2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_mark_param_request3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_params.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_twofixture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_python(1)dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +18,7 @@
     <SUITE FILE_PATH="coverage/study_pytest$pytest_for_test_fixtureandparams_test_cart.coverage" NAME="pytest for test_fixtureandparams.test_cart Coverage Results" MODIFIED="1593418446064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_for_test_dict_Testdicts_test1.coverage" NAME="pytest for test_dict.Testdicts.test1 Coverage Results" MODIFIED="1593402621266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_dict_py.coverage" NAME="pytest in test_dict.py Coverage Results" MODIFIED="1593400477612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_python_1_dict_py.coverage" NAME="pytest in test_python(1)dict.py Coverage Results" MODIFIED="1593496759371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_fixture_py.coverage" NAME="pytest in test_fixture.py Coverage Results" MODIFIED="1593413678908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_twofixture_py.coverage" NAME="pytest in test_twofixture.py Coverage Results" MODIFIED="1593415100320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_in_pytest_log6_py.coverage" NAME="pytest in pytest_log6.py Coverage Results" MODIFIED="1592469982960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -52,11 +38,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htmlcov/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
               <caret line="79" column="8" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_python(1)dict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_params.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -91,6 +95,7 @@
         <option value="$PROJECT_DIR$/test_fixtureandparams.py" />
         <option value="$PROJECT_DIR$/test_mark_param_request2.py" />
         <option value="$PROJECT_DIR$/test_mark_param_request3.py" />
+        <option value="$PROJECT_DIR$/test_python(1)dict.py" />
       </list>
     </option>
   </component>
@@ -146,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_mark_param_request3.py">
+  <component name="RunManager" selected="Python tests.pytest in test_python(1)dict.py">
     <configuration name="pytest for test_fixtureandparams.test_cart" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="study_pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,7 +184,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_fixtureandparams.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_python(1)dict.test_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="study_pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,8 +196,8 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_fixtureandparams.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_python(1)dict.test_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_mark_param_request3.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -211,7 +216,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_params.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_python(1)dict.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="study_pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,17 +228,17 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_params.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_python(1)dict.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_python(1)dict.py" />
+        <item itemvalue="Python tests.pytest for test_python(1)dict.test_01" />
         <item itemvalue="Python tests.pytest in test_mark_param_request3.py" />
         <item itemvalue="Python tests.pytest for test_mark_param_request2.test_cart" />
         <item itemvalue="Python tests.pytest for test_fixtureandparams.test_cart" />
-        <item itemvalue="Python tests.pytest in test_fixtureandparams.py" />
-        <item itemvalue="Python tests.pytest in test_params.py" />
       </list>
     </recent_temporary>
   </component>
@@ -254,44 +259,44 @@
       <workItem from="1593397599092" duration="3412000" />
       <workItem from="1593410016122" duration="587000" />
       <workItem from="1593412195551" duration="12334000" />
-      <workItem from="1593483280961" duration="246000" />
+      <workItem from="1593483280961" duration="6569000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_fixtureandparams_test_cart - 2020.06.29 at 15h 55m 09s.xml">
-      <configuration name="pytest for test_fixtureandparams.test_cart" configurationId="tests" />
+    <history-entry file="pytest_in_test_python(1)dict_py - 2020.06.30 at 11h 26m 07s.xml">
+      <configuration name="pytest in test_python(1)dict.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fixtureandparams_test_cart - 2020.06.29 at 15h 55m 28s.xml">
-      <configuration name="pytest for test_fixtureandparams.test_cart" configurationId="tests" />
+    <history-entry file="pytest_in_test_python(1)dict_py - 2020.06.30 at 11h 34m 59s.xml">
+      <configuration name="pytest in test_python(1)dict.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fixtureandparams_test_cart - 2020.06.29 at 16h 08m 16s.xml">
-      <configuration name="pytest for test_fixtureandparams.test_cart" configurationId="tests" />
+    <history-entry file="pytest_in_test_python(1)dict_py - 2020.06.30 at 11h 39m 12s.xml">
+      <configuration name="pytest in test_python(1)dict.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fixtureandparams_test_cart - 2020.06.29 at 16h 08m 44s.xml">
-      <configuration name="pytest for test_fixtureandparams.test_cart" configurationId="tests" />
+    <history-entry file="pytest_in_test_python(1)dict_py - 2020.06.30 at 11h 41m 43s.xml">
+      <configuration name="pytest in test_python(1)dict.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_fixtureandparams_py - 2020.06.29 at 16h 09m 02s.xml">
-      <configuration name="pytest in test_fixtureandparams.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_python(1)dict_py - 2020.06.30 at 11h 42m 34s.xml">
+      <configuration name="pytest in test_python(1)dict.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fixtureandparams_test_cart - 2020.06.29 at 16h 13m 09s.xml">
-      <configuration name="pytest for test_fixtureandparams.test_cart" configurationId="tests" />
+    <history-entry file="pytest_in_test_python(1)dict_py - 2020.06.30 at 11h 43m 03s.xml">
+      <configuration name="pytest in test_python(1)dict.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_fixtureandparams_test_cart - 2020.06.29 at 16h 14m 07s.xml">
-      <configuration name="pytest for test_fixtureandparams.test_cart" configurationId="tests" />
+    <history-entry file="pytest_in_test_python(1)dict_py - 2020.06.30 at 13h 52m 14s.xml">
+      <configuration name="pytest in test_python(1)dict.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_mark_param_request2_test_cart - 2020.06.29 at 16h 44m 10s.xml">
-      <configuration name="pytest for test_mark_param_request2.test_cart" configurationId="tests" />
+    <history-entry file="pytest_in_test_python(1)dict_py - 2020.06.30 at 13h 52m 53s.xml">
+      <configuration name="pytest in test_python(1)dict.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_mark_param_request3_py - 2020.06.29 at 17h 00m 02s.xml">
-      <configuration name="pytest in test_mark_param_request3.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_python(1)dict_py - 2020.06.30 at 13h 58m 58s.xml">
+      <configuration name="pytest in test_python(1)dict.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_mark_param_request3_py - 2020.06.29 at 17h 01m 24s.xml">
-      <configuration name="pytest in test_mark_param_request3.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_python(1)dict_py - 2020.06.30 at 13h 59m 20s.xml">
+      <configuration name="pytest in test_python(1)dict.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29655000" />
+    <option name="totallyTimeSpent" value="35978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -302,7 +307,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32555556" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32555556" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -311,7 +316,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -390,13 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_params.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_logging.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -446,6 +444,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="79" column="8" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_python(1)dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
         </state>
       </provider>
     </entry>
