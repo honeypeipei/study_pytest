@@ -1,0 +1,5 @@
+[35mDEBUG   [0m root:test_logging.py:10 this is debug
+[32mINFO    [0m root:test_logging.py:11 info
+[33mWARNING [0m root:test_logging.py:12 warning
+[1m[31mERROR   [0m root:test_logging.py:13 error
+[31mCRITICAL[0m root:test_logging.py:14 critical
