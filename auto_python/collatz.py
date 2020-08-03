@@ -12,15 +12,22 @@ def collatz(param):
 
 
 while True:
-    print('Please input a int:')
-    myinput = int(input())
-    myres = collatz(myinput)
-    if myres != 1:
-        print('error,please input agein ')
-        continue
-    else:
-        print('cogratulation! your result is ：', myres)
-        break
+    print('Please input:')
+    # 检测用户是否输入了一个非整数的字符串
+    try:
+        myinput = int(input())
+        myres = collatz(myinput)
+        if myres != 1:
+            print('error,please input agein ')
+            continue
+        else:
+            print('cogratulation! your result is ：', myres)
+            break
+    except:
+        print('Please input a int!!!!!!')
+        # myinput = int(input())
+
+
 
 
 
