@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20261b82-25b5-4d99-9620-e9f77ae5d6c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/auto_python/allMyCats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto_python/magic8Ball2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto_python/myPets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto_python/passingReference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_python/addInventory050602.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_python/birthday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_python/caculateFoods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_python/catnapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_python/characterCount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_python/inventory0506.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_python/ticTacToe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,59 +19,38 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/study_pytest$pytest_for_test_logging_test_log.coverage" NAME="pytest for test_logging.test_log Coverage Results" MODIFIED="1592450877710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_params_py.coverage" NAME="pytest in test_params.py Coverage Results" MODIFIED="1593415934149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_for_test_mark_param_request2_test_cart.coverage" NAME="pytest for test_mark_param_request2.test_cart Coverage Results" MODIFIED="1593420250005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$passingReference.coverage" NAME="passingReference Coverage Results" MODIFIED="1596529463414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
+    <SUITE FILE_PATH="coverage/study_pytest$inventory0506.coverage" NAME="inventory0506 Coverage Results" MODIFIED="1596608981255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
+    <SUITE FILE_PATH="coverage/study_pytest$caculateFoods.coverage" NAME="caculateFoods Coverage Results" MODIFIED="1596608337531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
+    <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_python_1_dict_py.coverage" NAME="pytest in test_python(1)dict.py Coverage Results" MODIFIED="1593496759371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study_pytest$swordfish.coverage" NAME="swordfish Coverage Results" MODIFIED="1595918344408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study_pytest$addInventory050602.coverage" NAME="addInventory050602 Coverage Results" MODIFIED="1596611119383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
+    <SUITE FILE_PATH="coverage/study_pytest$magic8Ball2.coverage" NAME="magic8Ball2 Coverage Results" MODIFIED="1596444376664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
+    <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_twofixture_py.coverage" NAME="pytest in test_twofixture.py Coverage Results" MODIFIED="1593415100320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study_pytest$chapter3.coverage" NAME="chapter3 Coverage Results" MODIFIED="1595921276242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
+    <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_fixtureandparams_py.coverage" NAME="pytest in test_fixtureandparams.py Coverage Results" MODIFIED="1593418140616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_params_py.coverage" NAME="pytest in test_params.py Coverage Results" MODIFIED="1593415934149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_for_test_fixtureandparams_test_cart.coverage" NAME="pytest for test_fixtureandparams.test_cart Coverage Results" MODIFIED="1593418446064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$myPets.coverage" NAME="myPets Coverage Results" MODIFIED="1596442323706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
+    <SUITE FILE_PATH="coverage/study_pytest$characterCount.coverage" NAME="characterCount Coverage Results" MODIFIED="1596595223160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_for_test_dict_Testdicts_test1.coverage" NAME="pytest for test_dict.Testdicts.test1 Coverage Results" MODIFIED="1593402621266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/study_pytest$collatz.coverage" NAME="collatz Coverage Results" MODIFIED="1596426004697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_dict_py.coverage" NAME="pytest in test_dict.py Coverage Results" MODIFIED="1593400477612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_python_1_dict_py.coverage" NAME="pytest in test_python(1)dict.py Coverage Results" MODIFIED="1593496759371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/study_pytest$swordfish.coverage" NAME="swordfish Coverage Results" MODIFIED="1595918344408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study_pytest$catnapping.coverage" NAME="catnapping Coverage Results" MODIFIED="1596617102083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_fixture_py.coverage" NAME="pytest in test_fixture.py Coverage Results" MODIFIED="1593413678908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$guessTheNumber.coverage" NAME="guessTheNumber Coverage Results" MODIFIED="1595927158530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
-    <SUITE FILE_PATH="coverage/study_pytest$magic8Ball2.coverage" NAME="magic8Ball2 Coverage Results" MODIFIED="1596444376664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
     <SUITE FILE_PATH="coverage/study_pytest$chapte_none.coverage" NAME="chapte_none Coverage Results" MODIFIED="1595924470020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
-    <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_twofixture_py.coverage" NAME="pytest in test_twofixture.py Coverage Results" MODIFIED="1593415100320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_in_pytest_log6_py.coverage" NAME="pytest in pytest_log6.py Coverage Results" MODIFIED="1592469982960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_mark_param_request3_py.coverage" NAME="pytest in test_mark_param_request3.py Coverage Results" MODIFIED="1593421283771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$allMyCats.coverage" NAME="allMyCats Coverage Results" MODIFIED="1596439483498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
+    <SUITE FILE_PATH="coverage/study_pytest$birthday.coverage" NAME="birthday Coverage Results" MODIFIED="1596593216539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
+    <SUITE FILE_PATH="coverage/study_pytest$ticTacToe.coverage" NAME="ticTacToe Coverage Results" MODIFIED="1596597409942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_for_test_fixture_param_test_one.coverage" NAME="pytest for test_fixture_param.test_one Coverage Results" MODIFIED="1593414167656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_for_test_fixture_param_test_two.coverage" NAME="pytest for test_fixture_param.test_two Coverage Results" MODIFIED="1593415467911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/study_pytest$chapter3.coverage" NAME="chapter3 Coverage Results" MODIFIED="1595921276242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
-    <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_fixtureandparams_py.coverage" NAME="pytest in test_fixtureandparams.py Coverage Results" MODIFIED="1593418140616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto_python/myPets.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto_python/magic8Ball2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/auto_python/passingReference.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,14 +90,22 @@
         <option value="$PROJECT_DIR$/auto_python/myPets.py" />
         <option value="$PROJECT_DIR$/auto_python/magic8Ball2.py" />
         <option value="$PROJECT_DIR$/auto_python/passingReference.py" />
+        <option value="$PROJECT_DIR$/auto_python/birthday.py" />
+        <option value="$PROJECT_DIR$/auto_python/characterCount.py" />
+        <option value="$PROJECT_DIR$/auto_python/theBoard.py" />
+        <option value="$PROJECT_DIR$/auto_python/ticTacToe.py" />
+        <option value="$PROJECT_DIR$/auto_python/caculateFoods.py" />
+        <option value="$PROJECT_DIR$/auto_python/inventory0506.py" />
+        <option value="$PROJECT_DIR$/auto_python/addInventory050602.py" />
+        <option value="$PROJECT_DIR$/auto_python/catnapping.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="248" />
-    <option name="y" value="69" />
-    <option name="width" value="1760" />
-    <option name="height" value="1045" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="819" />
+    <option name="y" value="19" />
+    <option name="width" value="1504" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,8 +158,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.passingReference">
-    <configuration name="allMyCats" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.catnapping">
+    <configuration name="addInventory050602" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,7 +172,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_python/allMyCats.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_python/addInventory050602.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="collatz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="caculateFoods" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,7 +194,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_python/collatz.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_python/caculateFoods.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,7 +203,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="magic8Ball2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="catnapping" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,7 +216,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_python/magic8Ball2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_python/catnapping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="myPets" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="inventory0506" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,7 +238,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_python/myPets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_python/inventory0506.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,7 +247,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="passingReference" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ticTacToe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,7 +260,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_python/passingReference.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_python/ticTacToe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.passingReference" />
-        <item itemvalue="Python.magic8Ball2" />
-        <item itemvalue="Python.myPets" />
-        <item itemvalue="Python.allMyCats" />
-        <item itemvalue="Python.collatz" />
+        <item itemvalue="Python.catnapping" />
+        <item itemvalue="Python.addInventory050602" />
+        <item itemvalue="Python.inventory0506" />
+        <item itemvalue="Python.caculateFoods" />
+        <item itemvalue="Python.ticTacToe" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +301,8 @@
       <workItem from="1595813244467" duration="599000" />
       <workItem from="1595900191299" duration="18952000" />
       <workItem from="1596262337363" duration="4450000" />
-      <workItem from="1596425080610" duration="29746000" />
+      <workItem from="1596425080610" duration="29963000" />
+      <workItem from="1596589584414" duration="21371000" />
     </task>
     <servers />
   </component>
@@ -348,18 +339,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90157000" />
+    <option name="totallyTimeSpent" value="111745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="248" y="69" width="1760" height="1045" extended-state="1" />
-    <editor active="true" />
+    <frame x="819" y="19" width="1504" height="1041" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13270143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15851955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295838" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32316384" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,7 +358,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -569,6 +559,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/auto_python/passingReference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="104" column="30" lean-forward="true" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_python/magic8Ball2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_python/birthday.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_python/characterCount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/auto_python/myPets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -576,17 +594,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto_python/magic8Ball2.py">
+    <entry file="file://$PROJECT_DIR$/auto_python/theBoard.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_python/ticTacToe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="108">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto_python/passingReference.py">
+    <entry file="file://$PROJECT_DIR$/auto_python/caculateFoods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
+        <state relative-caret-position="332">
+          <caret line="54" column="11" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_python/addInventory050602.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_python/inventory0506.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="6" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_python/catnapping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
         </state>
       </provider>
     </entry>
