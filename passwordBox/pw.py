@@ -26,6 +26,7 @@ account = sys.argv[1] #first command line arg is the account name
 if account in PASSWORDS:
     # 将口令复制到剪贴板
     pyperclip.copy(PASSWORDS[account])
+    print(account)
 
     # 提示，已复制了该值
     print('Password for ' + 'account' + 'copied to clipboard.')
