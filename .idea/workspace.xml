@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20261b82-25b5-4d99-9620-e9f77ae5d6c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gongbiao/spider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gongbiao/test/gongbiao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gongbiao/test/test01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gongbiao/test/testBs4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gongbiao/test/testMysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gongbiao/test/testUrllib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongbiao/test/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongbiao/test/test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongbiao/test/test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongbiao/test/test02.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +22,7 @@
     <SUITE FILE_PATH="coverage/study_pytest$swordfish.coverage" NAME="swordfish Coverage Results" MODIFIED="1595918344408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$addInventory050602.coverage" NAME="addInventory050602 Coverage Results" MODIFIED="1596611119383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
     <SUITE FILE_PATH="coverage/study_pytest$magic8Ball2.coverage" NAME="magic8Ball2 Coverage Results" MODIFIED="1596444376664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
+    <SUITE FILE_PATH="coverage/study_pytest$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1597285916409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gongbiao/test" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_twofixture_py.coverage" NAME="pytest in test_twofixture.py Coverage Results" MODIFIED="1593415100320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_pytest$spider.coverage" NAME="spider Coverage Results" MODIFIED="1597225355203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gongbiao" />
     <SUITE FILE_PATH="coverage/study_pytest$chapter3.coverage" NAME="chapter3 Coverage Results" MODIFIED="1595921276242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
@@ -38,7 +34,7 @@
     <SUITE FILE_PATH="coverage/study_pytest$testMysql.coverage" NAME="testMysql Coverage Results" MODIFIED="1597285323529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gongbiao/test" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_for_test_dict_Testdicts_test1.coverage" NAME="pytest for test_dict.Testdicts.test1 Coverage Results" MODIFIED="1593402621266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/study_pytest$collatz.coverage" NAME="collatz Coverage Results" MODIFIED="1596426004697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_python" />
-    <SUITE FILE_PATH="coverage/study_pytest$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1597281512123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gongbiao/test" />
+    <SUITE FILE_PATH="coverage/study_pytest$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1597292968637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gongbiao/test" />
     <SUITE FILE_PATH="coverage/study_pytest$pytest_in_test_dict_py.coverage" NAME="pytest in test_dict.py Coverage Results" MODIFIED="1593400477612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/study_pytest$pw.coverage" NAME="pw Coverage Results" MODIFIED="1596627209236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/passwordBox" />
     <SUITE FILE_PATH="coverage/study_pytest$testUrllib.coverage" NAME="testUrllib Coverage Results" MODIFIED="1597196356216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gongbiao/test" />
@@ -56,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gongbiao/test/test01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="73" column="17" lean-forward="true" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+            <state relative-caret-position="-1617">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
               <folding>
                 <element signature="e#63#115#0" expanded="true" />
               </folding>
@@ -68,14 +64,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gongbiao/test/testBs4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-912">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="33" />
+              <folding>
+                <element signature="e#64#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gongbiao/spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#64#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gongbiao/test/testUrllib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#67#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gongbiao/test/testMysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="323">
+              <caret line="47" column="16" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="47" selection-end-column="16" />
               <folding>
                 <element signature="e#66#80#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gongbiao/test/test02.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -160,14 +201,15 @@
         <option value="$PROJECT_DIR$/gongbiao/test/gongbiao.html" />
         <option value="$PROJECT_DIR$/gongbiao/test/testBs4.py" />
         <option value="$PROJECT_DIR$/gongbiao/spider.py" />
-        <option value="$PROJECT_DIR$/gongbiao/test/test01.py" />
         <option value="$PROJECT_DIR$/gongbiao/test/testMysql.py" />
+        <option value="$PROJECT_DIR$/gongbiao/test/test02.py" />
+        <option value="$PROJECT_DIR$/gongbiao/test/test01.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-64" />
-    <option name="y" value="58" />
+    <option name="x" value="30" />
+    <option name="y" value="78" />
     <option name="width" value="1919" />
     <option name="height" value="978" />
   </component>
@@ -229,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testMysql">
+  <component name="RunManager" selected="Python.test01">
     <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,6 +308,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gongbiao/test/test01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="study_pytest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongbiao/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gongbiao/test/test02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,35 +382,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testUrllib" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="study_pytest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongbiao/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gongbiao/test/testUrllib.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testMysql" />
         <item itemvalue="Python.test01" />
+        <item itemvalue="Python.test02" />
+        <item itemvalue="Python.testMysql" />
         <item itemvalue="Python.spider" />
         <item itemvalue="Python.testBs4" />
-        <item itemvalue="Python.testUrllib" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +418,7 @@
       <workItem from="1596589584414" duration="27716000" />
       <workItem from="1597135042321" duration="4980000" />
       <workItem from="1597191873980" duration="31664000" />
-      <workItem from="1597279257715" duration="6032000" />
+      <workItem from="1597279257715" duration="14785000" />
     </task>
     <servers />
   </component>
@@ -413,10 +455,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160766000" />
+    <option name="totallyTimeSpent" value="169519000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-64" y="58" width="1919" height="978" extended-state="0" />
+    <frame x="30" y="78" width="1919" height="978" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12885761" />
@@ -455,6 +497,69 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="t_list" />
+        <watch expression="bs.select(&quot;tr[bgcolor='#FFFFFF']&quot; &gt; 'td')" language="Python" />
+        <watch expression="t_list.findChildren('td')" language="Python" />
+        <watch expression="t_list[1].findChildren('td')" language="Python" />
+        <watch expression="t_list[1].findChildren('td')[-1]" language="Python" />
+        <watch expression="t_list[1].findChildren('td')[-1].text()" language="Python" />
+        <watch expression="(t_list[1].findChildren('td')[-1]).text()" language="Python" />
+        <watch expression="t_list[1].findChildren('td')[-1].get_text()" language="Python" />
+        <watch expression="t_list.td" language="Python" />
+        <watch expression="t_list." language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>t_list[1].findChildren('td')[-1].get_text()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(t_list[1].findChildren('td')[-1]).text()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t_list[1].findChildren('td')[-1].text()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t_list[1].findChildren('td')[-1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t_list[1].findChildren('td')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t_list.</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t_list.td</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t_list.findChildren('td')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bs.select(&quot;tr[bgcolor='#FFFFFF']&quot; &gt; 'td')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/caculate.py">
@@ -610,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/软件/python/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto_python/guessTheNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -716,16 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongbiao/test/testUrllib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#67#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1337464220/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-767">
@@ -733,37 +821,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/软件/python/Lib/site-packages/bs4/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1460">
-          <caret line="532" column="43" lean-forward="true" selection-start-line="532" selection-start-column="43" selection-end-line="532" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/软件/python/Lib/site-packages/bs4/element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
           <caret line="732" column="33" selection-start-line="732" selection-start-column="33" selection-end-line="732" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongbiao/test/testBs4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="33" />
-          <folding>
-            <element signature="e#64#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongbiao/spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#64#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,22 +845,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongbiao/test/test01.py">
+    <entry file="file://$PROJECT_DIR$/gongbiao/test/test02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="73" column="17" lean-forward="true" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-          <folding>
-            <element signature="e#63#115#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/软件/python/Lib/site-packages/bs4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="306" selection-start-line="306" selection-end-line="306" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gongbiao/test/testMysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="323">
+          <caret line="47" column="16" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="47" selection-end-column="16" />
           <folding>
             <element signature="e#66#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/软件/python/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongbiao/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#64#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongbiao/test/testUrllib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#67#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongbiao/test/testBs4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="e#64#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongbiao/test/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1617">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="e#63#115#0" expanded="true" />
           </folding>
         </state>
       </provider>
