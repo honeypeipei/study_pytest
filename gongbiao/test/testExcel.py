@@ -5,6 +5,7 @@
 
 
 import xlrd
+from xlwt import *
 
 #读取excel文件
 def excel():
@@ -34,3 +35,5 @@ def res(par):   #a变量传入
 
 res(excel())
 print(len(excel()))
+
+

@@ -17,19 +17,27 @@ import xlrd
 
 #读取excel文件
 def excel():
-    wb = xlrd.open_workbook('E:\\test01.xls')# 打开Excel文件
-    sheet = wb.sheet_by_name('Sheet1')#通过excel表格名称(rank)获取工作表
-    dat = []  #创建空list
+    wb = xlrd.open_workbook('E:\\test01.xls')  # 打开Excel文件
+    sheet = wb.sheet_by_name('Sheet1')  # 通过excel表格名称(rank)获取工作表
+    dat = []  # 创建空list
     for a in range(sheet.nrows):
-        #循环读取表格内容（每次读取一行数据）
+        # 循环读取表格内容（每次读取一行数据）
         cells = sheet.row_values(a)
         # 每行数据赋值给cells
-        data=cells[0]
-        #因为表内可能存在多列数据，0代表第一列数据，1代表第二列，以此类推
+        data = cells[0]
+        # 因为表内可能存在多列数据，0代表第一列数据，1代表第二列，以此类推
         if data != '':
-            dat.append(data)
-        #把每次循环读取的数据插入到list
-    return dat
+            mydata = data[0:data.find('-')] + data[data.find('-'):((data.find('-')) + 5)]
+            dat.append(mydata.strip())
+        # 把每次循环读取的数据插入到list
+    # return dat
+    res_dat = []
+    for i in dat:
+        if i not in res_dat:
+            res_dat.append(i)
+    return res_dat
+
+
 
 
 
@@ -67,14 +75,14 @@ for item in mylist:
         if find == 0:
             print(myinput + ' 工标网上无此标准 ')
             # 自动生成sourceId
-            sourceid = 'source_' + str(int(time.time()))
-            datalist.append(sourceid)
-            datalist.append(myinput)
-            datalist.append('')
-            datalist.append('现行')
-            datalist.append('')
-            datalist.append('')
-            datalist.append('')
+            # sourceid = 'source_' + str(int(time.time()))
+            # datalist.append(sourceid)
+            # datalist.append(myinput)
+            # datalist.append('')
+            # datalist.append('现行')
+            # datalist.append('')
+            # datalist.append('')
+            # datalist.append('')
 
         else:
             # 取页面中搜到的标准列表
@@ -96,9 +104,9 @@ for item in mylist:
                         res1 = re.split('\uFF1A', i)
                         # newVal = re.sub(' ','',res1[1])
                         key.append(res1[0])
-                        print(key)
+                        # print(key)
                         val.append(res1[1].rstrip())
-                        print(val)
+                        # print(val)
 
                     if val[0] == myinput:
                         print('恭喜！！工标网上有您要查找的标准')
@@ -110,10 +118,12 @@ for item in mylist:
 
                         # 拿到标准状态插入到列表中
                         datalist.insert(3, item.findChildren('td')[-1].get_text())
+                        # break
                     else:
-                        print(myinput + ' 这一条数据和您搜索的关键字不一致哦，跳过！！！！')
-                except:
-                    print('数据不规范，不标准')
+                        print(' 这一条数据和您搜索的关键字不一致哦，跳过！！！！')
+                except Exception as r:
+                    print('未知错误 %s' %r )
+                    print(datalist,'数据不规范，不标准')
         return datalist
 
 
@@ -144,41 +154,38 @@ for item in mylist:
 
         conn = pymysql.connect(host='localhost', port=3306, user='root', password='root', db='test_pei', charset='utf8')
         cur = conn.cursor()
-        # cur.execute('SELECT access_id FROM sdm_access ORDER BY ID desc LIMIT 1')
-        # result1 = cur.fetchall()
-        # # print(result1)
-        # access_id = result1[0][0]
-        # # print(access_id)
-        # access_key = access_id[0:4]
-        # access_id = access_id[4:]
-        # accessID = access_key + str((int(access_id) + 1))
 
         accessID = 'access_' + str(int(time.time()))
 
-        sourceID = param[0]
-        standardId = param[1]
-        standardName = param[2]
-        standardType = param[3]
-        alternativeName = param[4]
-        publishTime = param[5]
-        implementTime = param[6]
+        if param == []:
+            print(myinput + " 在工标网上没找到")
+        else:
 
-        t = [(accessID, sourceID, standardId, standardName, standardType, alternativeName, publishTime, implementTime)]
-        print(t)
-        # sql1 = "INSERT INTO sdm_access (access_id,source_id,standard_id,standard_name,standard_type,alternative,publish_time,implement_time)VALUES('%s','%s','%s','%s','%s','%s','%s','%s')" %(accessID, sourceID, standardId, standardName, standardType, alternativeName, publishTime, implementTime)
-        sql1 = "INSERT INTO sdm_access (access_id,source_id,standard_id,standard_name,standard_type,alternative,publish_time,implement_time)VALUES(%s,%s,%s,%s,%s,%s,%s,%s)"
-        # sql1 = f"INSERT INTO sdm_access (access_id,source_id,standard_id,standard_name,standard_type,alternative,publish_time,implement_time) " \
-        #     f"VALUES('{accessID}','{sourceID}','{standardId}','{standardName}','{standardType}','{alternativeName}','{publishTime}','{implementTime}')"
-        # cur.executemany(sql1, t)
-        try:
-            cur.executemany(sql1, t)
-            conn.commit()
-            print('success!!!您需要的标准已抓取成功，可以使用了！！！')
-        except Exception:
-            traceback.print_exc()
+            sourceID = param[0]
+            standardId = param[1]
+            standardName = param[2]
+            standardType = param[3]
+            alternativeName = param[4]
+            publishTime = param[5]
+            implementTime = param[6]
 
-        cur.close()
-        conn.close()
+            t = [(accessID, sourceID, standardId, standardName, standardType, alternativeName, publishTime, implementTime)]
+            print(t)
+            # sql1 = "INSERT INTO sdm_access (access_id,source_id,standard_id,standard_name,standard_type,alternative,publish_time,implement_time)VALUES('%s','%s','%s','%s','%s','%s','%s','%s')" %(accessID, sourceID, standardId, standardName, standardType, alternativeName, publishTime, implementTime)
+            sql1 = "INSERT INTO sdm_access (access_id,source_id,standard_id,standard_name,standard_type,alternative,publish_time,implement_time)VALUES(%s,%s,%s,%s,%s,%s,%s,%s)"
+            # sql1 = f"INSERT INTO sdm_access (access_id,source_id,standard_id,standard_name,standard_type,alternative,publish_time,implement_time) " \
+            #     f"VALUES('{accessID}','{sourceID}','{standardId}','{standardName}','{standardType}','{alternativeName}','{publishTime}','{implementTime}')"
+            # cur.executemany(sql1, t)
+            try:
+                cur.executemany(sql1, t)
+                conn.commit()
+                print('success!!!您需要的标准已抓取成功，可以使用了！！！')
+            except Exception:
+                traceback.print_exc()
+                print('数据库中已有该条标准')
+
+            cur.close()
+            conn.close()
 
 
     if __name__ == "__main__":
@@ -187,7 +194,7 @@ for item in mylist:
 
 
 
-    time.sleep(5)
+    time.sleep(1)
 
 
 
